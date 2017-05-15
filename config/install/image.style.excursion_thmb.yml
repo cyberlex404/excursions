@@ -1,0 +1,13 @@
+langcode: ru
+status: true
+dependencies: {  }
+name: excursion_thmb
+label: 'Excursion Thumbnail'
+effects:
+  1b340208-0ba6-45d9-a715-65d6e7989bb8:
+    uuid: 1b340208-0ba6-45d9-a715-65d6e7989bb8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 534
+      height: 300

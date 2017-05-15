@@ -1,0 +1,21 @@
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.excursion.body
+  module:
+    - excursions
+    - text
+id: excursion.excursion.body
+field_name: body
+entity_type: excursion
+bundle: excursion
+label: Описание
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,46 @@
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.guide.guide.fullname
+    - field.field.guide.guide.photos
+    - field.field.guide.guide.telephones
+    - image.style.large
+  module:
+    - excursions
+    - image
+    - telephone
+id: guide.guide.default
+targetEntityType: guide
+bundle: guide
+mode: default
+content:
+  name:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  photos:
+    type: image
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+  telephones:
+    type: telephone_link
+    weight: 2
+    region: content
+    label: above
+    settings:
+      title: ''
+    third_party_settings: {  }
+hidden:
+  fullname: true
+  langcode: true
+  user_id: true

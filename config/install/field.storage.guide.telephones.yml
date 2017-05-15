@@ -1,0 +1,18 @@
+langcode: ru
+status: true
+dependencies:
+  module:
+    - excursions
+    - telephone
+id: guide.telephones
+field_name: telephones
+entity_type: guide
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 2
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

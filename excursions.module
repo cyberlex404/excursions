@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains excursions.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function excursions_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the excursions module.
+    case 'help.page.excursions':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Excursions catalog') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function excursions_theme() {
+  return [
+    'excursions' => [
+      'render element' => 'children',
+    ],
+  ];
+}

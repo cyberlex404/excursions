@@ -1,0 +1,20 @@
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.guide.telephones
+  module:
+    - excursions
+    - telephone
+id: guide.guide.telephones
+field_name: telephones
+entity_type: guide
+bundle: guide
+label: Telephones
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

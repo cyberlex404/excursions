@@ -1,0 +1,9 @@
+name: Excursions
+type: module
+description: Excursions catalog
+core: 8.x
+package: Custom
+dependencies:
+  - views
+  - text
+  - image

@@ -1,0 +1,20 @@
+uuid: cb36d28e-2c4c-4a82-91e5-d72f88291e9b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.guide.fullname
+  module:
+    - excursions
+id: guide.guide.fullname
+field_name: fullname
+entity_type: guide
+bundle: guide
+label: 'Full name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

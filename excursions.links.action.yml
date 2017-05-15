@@ -1,0 +1,10 @@
+entity.guide.add_form:
+  route_name: entity.guide.add_form
+  title: 'Add Guide'
+  appears_on:
+    - entity.guide.collection
+entity.excursion.add_form:
+  route_name: entity.excursion.add_form
+  title: 'Add Excursion'
+  appears_on:
+    - entity.excursion.collection

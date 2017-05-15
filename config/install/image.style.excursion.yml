@@ -1,0 +1,13 @@
+langcode: ru
+status: true
+dependencies: {  }
+name: excursion
+label: Excursion
+effects:
+  88e76551-d690-4abc-8aeb-b6cc7abeb85c:
+    uuid: 88e76551-d690-4abc-8aeb-b6cc7abeb85c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1600
+      height: 900

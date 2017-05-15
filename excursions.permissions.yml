@@ -1,0 +1,44 @@
+add guide entities:
+  title: 'Create new Guide entities'
+
+administer guide entities:
+  title: 'Administer Guide entities'
+  description: 'Allow to access the administration form to configure Guide entities.'
+  restrict access: true
+
+delete guide entities:
+  title: 'Delete Guide entities'
+
+edit guide entities:
+  title: 'Edit Guide entities'
+
+access guide overview:
+  title: 'Access the Guide overview page'
+
+view published guide entities:
+  title: 'View published Guide entities'
+
+view unpublished guide entities:
+  title: 'View unpublished Guide entities'
+add excursion entities:
+  title: 'Create new Excursion entities'
+
+administer excursion entities:
+  title: 'Administer Excursion entities'
+  description: 'Allow to access the administration form to configure Excursion entities.'
+  restrict access: true
+
+delete excursion entities:
+  title: 'Delete Excursion entities'
+
+edit excursion entities:
+  title: 'Edit Excursion entities'
+
+access excursion overview:
+  title: 'Access the Excursion overview page'
+
+view published excursion entities:
+  title: 'View published Excursion entities'
+
+view unpublished excursion entities:
+  title: 'View unpublished Excursion entities'

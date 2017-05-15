@@ -1,0 +1,28 @@
+
+# Guide menu items definition
+entity.guide.collection:
+  title: 'Guide list'
+  route_name: entity.guide.collection
+  description: 'List Guide entities'
+  parent: system.admin_structure
+  weight: 100
+
+guide.admin.structure.settings:
+  title: Guide settings
+  description: 'Configure Guide entities'
+  route_name: guide.settings
+  parent: system.admin_structure
+
+# Excursion menu items definition
+entity.excursion.collection:
+  title: 'Excursion list'
+  route_name: entity.excursion.collection
+  description: 'List Excursion entities'
+  parent: system.admin_structure
+  weight: 100
+
+excursion.admin.structure.settings:
+  title: Excursion settings
+  description: 'Configure Excursion entities'
+  route_name: excursion.settings
+  parent: system.admin_structure

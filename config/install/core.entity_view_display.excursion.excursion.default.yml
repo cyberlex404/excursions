@@ -1,0 +1,52 @@
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.excursion.excursion.body
+    - field.field.excursion.excursion.photos
+  module:
+    - excursions
+    - image
+    - text
+_core:
+  default_config_hash: oEpiwLcspW57457tXN3B5UQPxG8e6lLO2Qi9ZiFkFfM
+id: excursion.excursion.default
+targetEntityType: excursion
+bundle: excursion
+mode: default
+content:
+  body:
+    type: text_default
+    weight: 2
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  guide:
+    type: entity_reference_label
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+  name:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  photos:
+    type: image
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  user_id: true
